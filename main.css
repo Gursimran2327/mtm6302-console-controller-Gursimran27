@@ -1,0 +1,58 @@
+/* reset.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.dark-theme {
+    background-color: #333;
+    color: #f0f0f0;
+}
+
+.light-theme {
+    background-color: #f0f0f0;
+    color: #333;
+}
+/* reset.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+/* Default styles for light theme */
+body.light-theme {
+    background-color: #f0f0f0; /* Light background */
+    color: #333; /* Dark text */
+}
+
+/* Styles for dark theme */
+body.dark-theme {
+    background-color: #333; /* Dark background */
+    color: #f0f0f0; /* Light text */
+}
+
+/* Style for h1 */
+h1 {
+    font-size: 2em;
+    margin: 1em 0;
+}
+
+/* Style for p */
+p {
+    font-size: 1.2em;
+    margin: 1em 0;
+}
